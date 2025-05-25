@@ -1,0 +1,43 @@
+.main_part {
+    background: linear-gradient(90deg, red, yellow, blue, red, yellow, blue);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid;
+    z-index: 1;
+    height: 6%;
+    display: flex;
+    background: white;
+    padding: 0 2% 0 2%;
+}
+
+.left_side, .right_side, .middle {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.left_side {
+    width: 30%;
+    background: linear-gradient(90deg, white, lightblue);
+}
+
+.right_side {
+    width: 30%;
+    justify-content: flex-end;
+    background: linear-gradient(-90deg, white, lightblue);
+}
+
+.middle {
+    width: 40%;
+    justify-content: center;
+    background: linear-gradient(90deg, lightblue, white, lightblue);
+}
+
+.btn, .log_out_form {
+    margin: 0 10px 0 10px;
+}
